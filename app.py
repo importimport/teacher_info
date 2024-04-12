@@ -13,11 +13,8 @@ from io import BytesIO
 import json
 from streamlit_echarts import Map
 from streamlit_echarts import JsCode
-import streamlit as st
-from streamlit_echarts import st_echarts
-from pyecharts import options as opts
-from pyecharts.charts import Bar
-from streamlit_echarts import st_pyecharts
+
+
 
 def zip_file(folder_path):
     # 设置压缩文件所在的文件夹路径
