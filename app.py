@@ -6,10 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-import jieba
 import os
 import re
-import zipfile
 from PIL import Image
 from io import BytesIO
 import json
