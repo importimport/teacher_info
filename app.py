@@ -9,12 +9,7 @@ import pandas as pd
 import seaborn as sns
 import os
 import re
-from PIL import Image
-from io import BytesIO
 import json
-from streamlit_echarts import Map
-from streamlit_echarts import JsCode
-
 
 
 
