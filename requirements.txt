@@ -6,3 +6,4 @@ websocket-client
 matplotlib
 seaborn
 selenium
+plotly
