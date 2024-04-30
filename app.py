@@ -102,7 +102,7 @@ def app():
     if choose == "自然基金检索":
         df=get_dataset()
         if  df is not None:
-            chromedriver_path = './chromedriver.exe'
+            chromedriver_path = './data/chromedriver.exe'
             driver = webdriver.Chrome(chromedriver_path)
             wait = WebDriverWait(driver, 10)
             # 打开目标网页
